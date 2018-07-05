@@ -1,0 +1,107 @@
+<!doctype html>
+
+<!--
+  This is a simple example / template impress.js slide show. The goal is to be
+  easier to read for a first timer than the official and very feature rich
+  demo by bartaz (http://bartaz.github.io/impress.js/). It's also a very
+  traditional presentation that looks like slides (square screens with bullet
+  points...), again to make a first timer feel more at home. From this simple
+  presentation you can then go on to more powerful impress.js presentations!
+  
+  This example is hopefully helpful for people that want to create both
+  simple and (eventually) awesome presentations in impress.js and comfortable
+  doing that directly in HTML.
+  
+  By: @henrikingo (Still based on the HTML from bartaz' demo.)  
+    
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Photos</title>
+    <meta name="description" content="Explore impress.js in 3D" />
+    <meta name="author" content="Henrik Ingo" />
+    <link href="css/3D-rotations.css" rel="stylesheet" />
+    <style>
+    	img {
+    		max-height:100%;
+    		max-width:100%;
+    	}
+    </style>
+</head>
+
+<body class="impress-not-supported">
+	<iframe width="0%" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/87078720&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress" data-transition-duration="2000">
+
+
+    <div id="overview" class="step overview" data-x="1350" data-y="100" data-z="100" data-scale="3" data-rotate-y="90">
+         <h3>Some good old photos</h3>
+		 <h6>Use arrow keys dumbo</h6>         
+
+    </div>
+    
+
+    <div id="step-1" class="step" data-x="0" data-y="0" data-z="0"
+         data-goto-prev="step-8">
+        <img src = " img/1.jpeg">
+    </div>
+
+    <div id="step-2" class="step" data-x="420" data-y="-70" data-z="-250" data-rotate-z="45" data-rotate-y="-45" data-rotate-order="zyx">
+        <img src = " img/2.jpeg">
+    </div>
+
+    <div id="step-3" class="step" data-x="700" data-y="350" data-z="-350" data-rotate-z="90" data-rotate-y="-90" data-rotate-order="zyx">
+        <img src = " img/3.jpg">
+    </div>
+
+    <div id="step-4" class="step" data-x="422" data-y="780" data-z="-250" data-rotate-z="135" data-rotate-y="-135" data-rotate-order="zyx">
+        <img src = " img/4.jpg">
+       
+    </div>
+     
+
+    <div id="step-5" class="step" data-x="0" data-y="702" data-z="0" data-rotate-z="180" data-rotate-y="-180" data-rotate-order="zyx">
+        <img src = " img/5.jpg">
+        
+    </div>
+
+    <div id="step-6" class="step" data-x="379" data-y="780" data-z="270" data-rotate-z="135" data-rotate-y="-225" data-rotate-order="zyx">
+        <img src = " img/6.jpg">
+      
+    </div>
+
+    <div id="step-7" class="step" data-x="700" data-y="350" data-z="350" data-rotate-z="90" data-rotate-y="-270" data-rotate-order="zyx">
+        <img src = " img/7.jpg">
+        
+    </div>
+
+    <div id="step-8" class="step" data-x="379" data-y="-70" data-z="270" data-rotate-z="45" data-rotate-y="-315" data-rotate-order="zyx"
+         >
+        <img src = " img/8.jpg">
+        
+    </div>
+     <div id="step-9" class="step" data-x="379" data-y="780" data-z="270" data-rotate-z="135" data-rotate-y="-225" data-rotate-order="zyx"
+         >
+        <img src = " img/9.jpg">
+        
+    </div>
+    <div id="overview2" class="step overview" data-x="2018" data-y="106" data-z="3018" data-scale="2" data-goto-next="step-1">
+         <p>You dumbfuck <code>Idiot</code> fucktard <code>Just because I have been busy</code> in my work... <code>You really think</code> I have no time for you.... <em>and that</em> I have replaced you. <code> You retard... do I have to explicitly tell you that you can call me and ask me to stop doing whatever the fuck I am doing and listen to you first???<br>PS: Finish the song.. <br>PPS: <a href="">Click here if you can't listen the song.</a><br>PPPS: <a href = "index-gr.html">Click here to go back</a></p>
+    </div>
+</div>
+
+<div id="impress-toolbar"></div>
+<div id="impress-help"></div>
+
+<script type="text/javascript" src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
